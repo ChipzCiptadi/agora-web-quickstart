@@ -14,7 +14,7 @@ let options = {
     // Use a temp token
     token: process.env.AGORA_TOKEN,
     // Set the user ID.
-    uid: 123456,
+    uid: Math.floor(Math.random() * 1000),
 };
 
 async function startBasicCall() {
