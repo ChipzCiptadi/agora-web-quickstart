@@ -12,9 +12,10 @@
     "agora-rtc-sdk-ng": "latest"
   },
   "devDependencies": {
+    "dotenv": "^16.4.5",
     "webpack": "5.91.0",
-    "webpack-dev-server": "5.0.4",
-    "webpack-cli": "5.1.4"
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.0.4"
   },
   "author": "",
   "license": "ISC"
